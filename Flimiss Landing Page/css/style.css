@@ -1,0 +1,28 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:500,400,900|Montserrat:400,700");
+
+@import url("components/banner.css");
+@import url("components/bottom-nav.css");
+@import url("components/card.css");
+
+/* fonts */
+
+/*Star Image I could use for Dark Bacground 
+linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%), url('https://images.unsplash.com/photo-1549119246-cf57ef8a17b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+*/
+
+body {
+	background: #d1d1d1;
+	opacity: .8;
+}
+
+a {
+	color: black !important;
+}
+
+a:hover {
+	color: white !important;
+}
+
+
+

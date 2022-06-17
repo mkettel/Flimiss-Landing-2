@@ -1,0 +1,82 @@
+.banner {
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	height: 80vh;
+	color: black;
+	line-height: 130%;
+
+}
+
+container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+	margin-bottom: 0;
+	position: relative;
+	display: inline-block;
+}
+
+.name_underscore {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.subtitle {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.banner h1 {
+	font-weight: 500;
+	font-size: 80px;
+}
+
+.banner p {
+	font-weight: lighter;
+}
+/*button styling for the log in and sign in*/
+.buttons {
+	justify-content: center;
+}
+
+.buttons:hover {
+	color: white;
+}
+.btn-twitter {
+	border: 1px solid black;
+	padding: 5px 45px;
+	margin-left: 29px;
+	margin-right: 11px;
+
+}
+
+.hstack {
+	display: flex;
+	margin-top: 40px;
+	opacity: .8;
+}
+
+.btn-secondary {
+	border: none;
+	color: black;
+	background-color: transparent;
+}
+.btn-secondary:hover {
+	color: white;
+	background-color: transparent;
+}
+
+
