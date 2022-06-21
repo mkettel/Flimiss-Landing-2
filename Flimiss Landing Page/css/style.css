@@ -7,12 +7,14 @@
 
 /* fonts */
 
-/*Star Image I could use for Dark Bacground 
-linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%), url('https://images.unsplash.com/photo-1549119246-cf57ef8a17b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-*/
+/*Mountain Image I could use for light white Background 
+linear-gradient(rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.3) 50%), url('https://images.pexels.com/photos/355770/pexels-photo-355770.jpeg?auto=compress&cs=tinysrgb&w=1080&h=750&dpr=2');
 
+Regular Grey: 
+#d1d1d1 		*/
+  			
 body {
-	background: #d1d1d1;
+	background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 40%), url('https://images.pexels.com/photos/5213518/pexels-photo-5213518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 	opacity: .8;
 }
 
@@ -22,6 +24,31 @@ a {
 
 a:hover {
 	color: white !important;
+}
+
+
+.hover-underline-animation {
+	display: inline-block;
+	position: relative;
+	color: black;
+
+}
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+	transform: scaleX(1.0);
+	transform-origin: bottom left;
+
 }
 
 

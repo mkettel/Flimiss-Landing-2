@@ -7,6 +7,7 @@
 	height: 80vh;
 	color: black;
 	line-height: 130%;
+	
 
 }
 
@@ -26,6 +27,7 @@ container, .container-fluid, .container-lg, .container-md, .container-sm, .conta
 	margin-bottom: 0;
 	position: relative;
 	display: inline-block;
+	text-shadow: 1px 3px .5px #6f706f;
 }
 
 .name_underscore {
@@ -37,6 +39,7 @@ container, .container-fluid, .container-lg, .container-md, .container-sm, .conta
 .subtitle {
 	display: inline-block;
 	margin-left: 5px;
+	text-shadow: 1px 2px .5px #6f706f;
 }
 
 .banner h1 {
@@ -50,6 +53,7 @@ container, .container-fluid, .container-lg, .container-md, .container-sm, .conta
 /*button styling for the log in and sign in*/
 .buttons {
 	justify-content: center;
+	margin-top: 5px;
 }
 
 .buttons:hover {
@@ -57,7 +61,7 @@ container, .container-fluid, .container-lg, .container-md, .container-sm, .conta
 }
 .btn-twitter {
 	border: 1px solid black;
-	padding: 5px 45px;
+	padding: 5px 50px;
 	margin-left: 29px;
 	margin-right: 11px;
 
@@ -66,17 +70,24 @@ container, .container-fluid, .container-lg, .container-md, .container-sm, .conta
 .hstack {
 	display: flex;
 	margin-top: 40px;
-	opacity: .8;
+	opacity: .4;
 }
 
 .btn-secondary {
 	border: none;
-	color: black;
+	color: black !important;
 	background-color: transparent;
 }
 .btn-secondary:hover {
 	color: white;
 	background-color: transparent;
 }
+
+.nav-item {
+	font-weight: ;
+}
+
+
+
 
 
