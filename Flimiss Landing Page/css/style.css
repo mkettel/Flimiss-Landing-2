@@ -51,5 +51,10 @@ a:hover {
 
 }
 
+#solution .solution-title {
+	display: flex;
+	text-transform: uppercase;
+	color: white;
+}
 
 
